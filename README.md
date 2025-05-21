@@ -1,2 +1,33 @@
-# projeto-final-basico
-Projeto final do módulo básico do bootcamp Atlântico Avanti do projto Capacita Brasil.
+# Projeto-Final-Capacita-Brasil
+
+
+## Índice
+- [O Projeto](#the-project)
+- [Imagens](#screenshot)
+- [Links](#links)
+- [Tecnologia](#tecnologias-e-recursos)
+
+## O Projeto
+
+Projeto final da primeira etapa do módulo full-stack do bootcamp Atlântico Avanti. Um site de portfólio contendo projetos e atuação como desenvolvedor full-stack.
+
+### Links
+
+- Site URL: [Link ativo]()
+
+
+### Screenshots
+
+![screenshot]()
+![screenshot]()
+![screenshot]()
+![screenshot]()
+
+
+### Tecnologias e Recursos
+
+- HTML5 semântico
+- Flexbox e Grid
+- Desktop-first workflow
+- Formulários com validação
+
