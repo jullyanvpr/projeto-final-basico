@@ -1,2 +1,2 @@
-# projto-final-basico
+# projeto-final-basico
 Projeto final do módulo básico do bootcamp Atlântico Avanti do projto Capacita Brasil.
