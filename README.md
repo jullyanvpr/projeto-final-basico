@@ -18,10 +18,10 @@ Projeto final da primeira etapa do módulo full-stack do bootcamp Atlântico Ava
 
 ### Screenshots
 
-![screenshot]()
-![screenshot]()
-![screenshot]()
-![screenshot]()
+![screenshot](./assets/historico.png)
+![screenshot](./assets/interesses.png)
+![screenshot](./assets/contato.png)
+![screenshot](./assets/clientes.png)
 
 
 ### Tecnologias e Recursos
