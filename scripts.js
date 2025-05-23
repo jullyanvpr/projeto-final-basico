@@ -18,28 +18,28 @@ buttons.forEach((btn, index) => {
 
 buttons[0].classList.add('active');
 
-fetch('../header/header.html')
+fetch('./header/header.html')
   .then(response => response.text())
   .then(html => {
     document.querySelector('header').innerHTML = html;
 
-    if (!document.querySelector('link[href="../header/header.css"]')) {
+    if (!document.querySelector('link[href="./header/header.css"]')) {
       const link = document.createElement('link');
       link.rel = 'stylesheet';
-      link.href = '../header/header.css';
+      link.href = './header/header.css';
       document.head.appendChild(link);
     }
   });
 
-  fetch('../footer/footer.html')
+  fetch('./footer/footer.html')
   .then(response => response.text())
   .then(html => {
     document.querySelector('footer').innerHTML = html;
 
-    if (!document.querySelector('link[href="../footer/footer.css"]')) {
+    if (!document.querySelector('link[href="./footer/footer.css"]')) {
       const link = document.createElement('link');
       link.rel = 'stylesheet';
-      link.href = '../footer/footer.css';
+      link.href = './footer/footer.css';
       document.head.appendChild(link);
     }
   });
