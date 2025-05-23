@@ -12,6 +12,7 @@
 :root {
   --branco: #ffffff;
   --cinzaclaro: #ebebeb;
+  --cinzaescuro: #ccc;
   --azulclaro: #00accc;
   --azulescuro: #002b33;
   --cinzagrafite: #151515;
@@ -22,11 +23,12 @@ html, body {
 }
 
 .intro {
-  min-width: 100vw;
-  min-height: 100svh;
+  max-width: 100vw;
+  max-height: 100svh;
   display: flex;
   justify-content: center;
   background-color: var(--azulescuro);
+  background-attachment: scroll;
 }
 
 .background {
@@ -58,6 +60,137 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 1rem;
+  margin-bottom: 350px;
+
+}
+
+.historico {
+  min-width: 100vww;
+  padding: 30px 30px 45px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.historico-background {
+  max-width: 90rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.historico-sobre {
+  color: var(--azulclaro);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.historico-headline {
+  color: var(--azulescuro);
+  font-size: 3rem;
+  max-width: 30rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.historico-paragraph {
+  color: var(--cinzagrafite);
+  font-size: 1rem;
+  max-width: 35rem;
+  text-align: justify;
+  margin-bottom: 45px;
+}
+
+.conhecimento {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 60px;
+}
+
+.cursos {
+  display: flex;
+  flex-direction: column;
+}
+
+.curso-headline {
+  color: var(--azulescuro);
+  text-transform: uppercase;
+}
+
+.curso-paragraph {
+  margin-bottom: 30px;
+}
+
+.skill {
+  margin-bottom: 1rem;
+  width: 15rem;
+}
+
+.skill-name {
+  font-weight: bold;
+  color: var(--azulescuro);
+}
+
+.skill-bar {
+  background-color: var(--cinzaescuro);
+  border-radius: 5px;
+  overflow: hidden;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.skill-fill {
+  background-color: var(--azulescuro); /* pode usar gradiente também */
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.interesses {
+  min-width: 100vw;
+  padding: 30px 30px 45px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--azulescuro);
+  
+}
+
+.interesses-background {
+  width: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.interesses-headline {
+  font-weight: bold;
+  font-size: 3rem;
+  color: var(--branco);
+  margin-bottom: 45px;
+}
+
+.interesses-texto {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: var(--branco);
+  margin-bottom: 60px;
+}
+
+.interesses-imagens {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.interesses-imagens-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  aspect-ratio: 16/9;
+
 }
 
 .testemunhos {
@@ -132,12 +265,20 @@ html, body {
   margin-bottom: 15px;
 }
 
+.card-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+}
+
 .card-item-paragraph {
   color: var(--cinzagrafite);
   text-align: center;
   font-size: 1.1rem;
   font-style: italic;
   margin-bottom: 15px;
+  /* height: 9rem; */
 }
 
 .card-item-name {
