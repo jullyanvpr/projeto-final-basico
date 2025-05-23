@@ -9,19 +9,23 @@
 - Introdução
 - Histórico
 - Interesses
+- Galeria
 - Contato
+- Clientes
 - Redes sociais
 
 ## Enunciado
 Objetivo: Criar um portfólio virtual no Github Pages para divulgação do seu trabalho como desenvolvedor fullstack.
 
+### Contato
 Criar uma nova página para permitir o contato, envio de dúvidas ou orçamentos do seu cliente para você.
 O formulário deve conter: nome, email, assunto e telefone para contato. Somente o HTML e o CSS.
-
 Imagem que direciona para o envio de mensagem no seu whatsapp (abrindo de forma automática).
 
+### Histórico
 Incluir barras de progresso ou outro tipo de marcador para ilustrar o quanto você conhece cada tecnologia.
 
+### Clientes
 Página com depoimento dos clientes (simulados) que você já atendeu. A página deve listar todos os depoimentos com:
 nome, foto e o comentário do cliente sobre os seus serviços.
 
